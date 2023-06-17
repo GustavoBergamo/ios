@@ -10,5 +10,4 @@ if a > b {
     print ("É maior")
 }else{
     print ("É menor")
-    print("sim, menor")
 }
