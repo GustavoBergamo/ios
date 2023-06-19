@@ -11,23 +11,19 @@ struct ContentView: View {
     
     var body: some View {
         VStack() {
-         
-            Image(systemName: "speaker.wave.2")
-                .foregroundColor(Color.blue)
-                .imageScale(.large)
-                
+            
+            Image("Logo Black")
+                .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
+                .aspectRatio(contentMode: .fit)
             Text("Anúncios")
                 .font(.title)
-                
             Text("Tripulantes de cabine")
                 .font(.body)
-                
             Button("Entrar") {
-                print("botão apertááááádo")
+                
             }
 
         }
-        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         
         
     }
@@ -36,5 +32,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
+            
     }
 }

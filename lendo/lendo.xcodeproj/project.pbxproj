@@ -7,63 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06224DC92A2A8E5C000B8AED /* AnunciosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06224DC82A2A8E5C000B8AED /* AnunciosApp.swift */; };
-		06224DCB2A2A8E5C000B8AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06224DCA2A2A8E5C000B8AED /* ContentView.swift */; };
-		06224DCD2A2A8E5D000B8AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06224DCC2A2A8E5D000B8AED /* Assets.xcassets */; };
-		06224DD02A2A8E5D000B8AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06224DCF2A2A8E5D000B8AED /* Preview Assets.xcassets */; };
-		06224DDA2A2A8E5D000B8AED /* AnunciosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06224DD92A2A8E5D000B8AED /* AnunciosTests.swift */; };
-		06224DE42A2A8E5D000B8AED /* AnunciosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06224DE32A2A8E5D000B8AED /* AnunciosUITests.swift */; };
-		06224DE62A2A8E5D000B8AED /* AnunciosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06224DE52A2A8E5D000B8AED /* AnunciosUITestsLaunchTests.swift */; };
-		0644BA892A40CF9000D5AC9E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0644BA882A40CF9000D5AC9E /* Launch Screen.storyboard */; };
+		06C9C3022A40D78200862DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3012A40D78200862DCB /* AppDelegate.swift */; };
+		06C9C3042A40D78200862DCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3032A40D78200862DCB /* SceneDelegate.swift */; };
+		06C9C3062A40D78200862DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3052A40D78200862DCB /* ViewController.swift */; };
+		06C9C3092A40D78200862DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C9C3072A40D78200862DCB /* Main.storyboard */; };
+		06C9C30B2A40D78300862DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C9C30A2A40D78300862DCB /* Assets.xcassets */; };
+		06C9C30E2A40D78300862DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C9C30C2A40D78300862DCB /* LaunchScreen.storyboard */; };
+		06C9C3192A40D78300862DCB /* lendoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3182A40D78300862DCB /* lendoTests.swift */; };
+		06C9C3232A40D78300862DCB /* lendoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3222A40D78300862DCB /* lendoUITests.swift */; };
+		06C9C3252A40D78300862DCB /* lendoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9C3242A40D78300862DCB /* lendoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06224DD62A2A8E5D000B8AED /* PBXContainerItemProxy */ = {
+		06C9C3152A40D78300862DCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06224DBD2A2A8E5C000B8AED /* Project object */;
+			containerPortal = 06C9C2F62A40D78200862DCB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06224DC42A2A8E5C000B8AED;
-			remoteInfo = Anuncios;
+			remoteGlobalIDString = 06C9C2FD2A40D78200862DCB;
+			remoteInfo = lendo;
 		};
-		06224DE02A2A8E5D000B8AED /* PBXContainerItemProxy */ = {
+		06C9C31F2A40D78300862DCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06224DBD2A2A8E5C000B8AED /* Project object */;
+			containerPortal = 06C9C2F62A40D78200862DCB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06224DC42A2A8E5C000B8AED;
-			remoteInfo = Anuncios;
+			remoteGlobalIDString = 06C9C2FD2A40D78200862DCB;
+			remoteInfo = lendo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06224DC52A2A8E5C000B8AED /* Anuncios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anuncios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		06224DC82A2A8E5C000B8AED /* AnunciosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosApp.swift; sourceTree = "<group>"; };
-		06224DCA2A2A8E5C000B8AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
-		06224DCC2A2A8E5D000B8AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06224DCF2A2A8E5D000B8AED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		06224DD52A2A8E5D000B8AED /* AnunciosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnunciosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06224DD92A2A8E5D000B8AED /* AnunciosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosTests.swift; sourceTree = "<group>"; };
-		06224DDF2A2A8E5D000B8AED /* AnunciosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnunciosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06224DE32A2A8E5D000B8AED /* AnunciosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosUITests.swift; sourceTree = "<group>"; };
-		06224DE52A2A8E5D000B8AED /* AnunciosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0644BA882A40CF9000D5AC9E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		06C9C2FE2A40D78200862DCB /* lendo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lendo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C9C3012A40D78200862DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06C9C3032A40D78200862DCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06C9C3052A40D78200862DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06C9C3082A40D78200862DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06C9C30A2A40D78300862DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C9C30D2A40D78300862DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C9C30F2A40D78300862DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C9C3142A40D78300862DCB /* lendoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lendoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C9C3182A40D78300862DCB /* lendoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lendoTests.swift; sourceTree = "<group>"; };
+		06C9C31E2A40D78300862DCB /* lendoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lendoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C9C3222A40D78300862DCB /* lendoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lendoUITests.swift; sourceTree = "<group>"; };
+		06C9C3242A40D78300862DCB /* lendoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lendoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06224DC22A2A8E5C000B8AED /* Frameworks */ = {
+		06C9C2FB2A40D78200862DCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DD22A2A8E5D000B8AED /* Frameworks */ = {
+		06C9C3112A40D78300862DCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DDC2A2A8E5D000B8AED /* Frameworks */ = {
+		06C9C31B2A40D78300862DCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,143 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06224DBC2A2A8E5C000B8AED = {
+		06C9C2F52A40D78200862DCB = {
 			isa = PBXGroup;
 			children = (
-				0644BA882A40CF9000D5AC9E /* Launch Screen.storyboard */,
-				06224DC72A2A8E5C000B8AED /* Anuncios */,
-				06224DD82A2A8E5D000B8AED /* AnunciosTests */,
-				06224DE22A2A8E5D000B8AED /* AnunciosUITests */,
-				06224DC62A2A8E5C000B8AED /* Products */,
+				06C9C3002A40D78200862DCB /* lendo */,
+				06C9C3172A40D78300862DCB /* lendoTests */,
+				06C9C3212A40D78300862DCB /* lendoUITests */,
+				06C9C2FF2A40D78200862DCB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		06224DC62A2A8E5C000B8AED /* Products */ = {
+		06C9C2FF2A40D78200862DCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06224DC52A2A8E5C000B8AED /* Anuncios.app */,
-				06224DD52A2A8E5D000B8AED /* AnunciosTests.xctest */,
-				06224DDF2A2A8E5D000B8AED /* AnunciosUITests.xctest */,
+				06C9C2FE2A40D78200862DCB /* lendo.app */,
+				06C9C3142A40D78300862DCB /* lendoTests.xctest */,
+				06C9C31E2A40D78300862DCB /* lendoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06224DC72A2A8E5C000B8AED /* Anuncios */ = {
+		06C9C3002A40D78200862DCB /* lendo */ = {
 			isa = PBXGroup;
 			children = (
-				06224DC82A2A8E5C000B8AED /* AnunciosApp.swift */,
-				06224DCA2A2A8E5C000B8AED /* ContentView.swift */,
-				06224DCC2A2A8E5D000B8AED /* Assets.xcassets */,
-				06224DCE2A2A8E5D000B8AED /* Preview Content */,
+				06C9C3012A40D78200862DCB /* AppDelegate.swift */,
+				06C9C3032A40D78200862DCB /* SceneDelegate.swift */,
+				06C9C3052A40D78200862DCB /* ViewController.swift */,
+				06C9C3072A40D78200862DCB /* Main.storyboard */,
+				06C9C30A2A40D78300862DCB /* Assets.xcassets */,
+				06C9C30C2A40D78300862DCB /* LaunchScreen.storyboard */,
+				06C9C30F2A40D78300862DCB /* Info.plist */,
 			);
-			path = Anuncios;
+			path = lendo;
 			sourceTree = "<group>";
 		};
-		06224DCE2A2A8E5D000B8AED /* Preview Content */ = {
+		06C9C3172A40D78300862DCB /* lendoTests */ = {
 			isa = PBXGroup;
 			children = (
-				06224DCF2A2A8E5D000B8AED /* Preview Assets.xcassets */,
+				06C9C3182A40D78300862DCB /* lendoTests.swift */,
 			);
-			path = "Preview Content";
+			path = lendoTests;
 			sourceTree = "<group>";
 		};
-		06224DD82A2A8E5D000B8AED /* AnunciosTests */ = {
+		06C9C3212A40D78300862DCB /* lendoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				06224DD92A2A8E5D000B8AED /* AnunciosTests.swift */,
+				06C9C3222A40D78300862DCB /* lendoUITests.swift */,
+				06C9C3242A40D78300862DCB /* lendoUITestsLaunchTests.swift */,
 			);
-			path = AnunciosTests;
-			sourceTree = "<group>";
-		};
-		06224DE22A2A8E5D000B8AED /* AnunciosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				06224DE32A2A8E5D000B8AED /* AnunciosUITests.swift */,
-				06224DE52A2A8E5D000B8AED /* AnunciosUITestsLaunchTests.swift */,
-			);
-			path = AnunciosUITests;
+			path = lendoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06224DC42A2A8E5C000B8AED /* Anuncios */ = {
+		06C9C2FD2A40D78200862DCB /* lendo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06224DE92A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "Anuncios" */;
+			buildConfigurationList = 06C9C3282A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendo" */;
 			buildPhases = (
-				06224DC12A2A8E5C000B8AED /* Sources */,
-				06224DC22A2A8E5C000B8AED /* Frameworks */,
-				06224DC32A2A8E5C000B8AED /* Resources */,
+				06C9C2FA2A40D78200862DCB /* Sources */,
+				06C9C2FB2A40D78200862DCB /* Frameworks */,
+				06C9C2FC2A40D78200862DCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Anuncios;
-			productName = Anuncios;
-			productReference = 06224DC52A2A8E5C000B8AED /* Anuncios.app */;
+			name = lendo;
+			productName = lendo;
+			productReference = 06C9C2FE2A40D78200862DCB /* lendo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06224DD42A2A8E5D000B8AED /* AnunciosTests */ = {
+		06C9C3132A40D78300862DCB /* lendoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06224DEC2A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "AnunciosTests" */;
+			buildConfigurationList = 06C9C32B2A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendoTests" */;
 			buildPhases = (
-				06224DD12A2A8E5D000B8AED /* Sources */,
-				06224DD22A2A8E5D000B8AED /* Frameworks */,
-				06224DD32A2A8E5D000B8AED /* Resources */,
+				06C9C3102A40D78300862DCB /* Sources */,
+				06C9C3112A40D78300862DCB /* Frameworks */,
+				06C9C3122A40D78300862DCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06224DD72A2A8E5D000B8AED /* PBXTargetDependency */,
+				06C9C3162A40D78300862DCB /* PBXTargetDependency */,
 			);
-			name = AnunciosTests;
-			productName = AnunciosTests;
-			productReference = 06224DD52A2A8E5D000B8AED /* AnunciosTests.xctest */;
+			name = lendoTests;
+			productName = lendoTests;
+			productReference = 06C9C3142A40D78300862DCB /* lendoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06224DDE2A2A8E5D000B8AED /* AnunciosUITests */ = {
+		06C9C31D2A40D78300862DCB /* lendoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06224DEF2A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "AnunciosUITests" */;
+			buildConfigurationList = 06C9C32E2A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendoUITests" */;
 			buildPhases = (
-				06224DDB2A2A8E5D000B8AED /* Sources */,
-				06224DDC2A2A8E5D000B8AED /* Frameworks */,
-				06224DDD2A2A8E5D000B8AED /* Resources */,
+				06C9C31A2A40D78300862DCB /* Sources */,
+				06C9C31B2A40D78300862DCB /* Frameworks */,
+				06C9C31C2A40D78300862DCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06224DE12A2A8E5D000B8AED /* PBXTargetDependency */,
+				06C9C3202A40D78300862DCB /* PBXTargetDependency */,
 			);
-			name = AnunciosUITests;
-			productName = AnunciosUITests;
-			productReference = 06224DDF2A2A8E5D000B8AED /* AnunciosUITests.xctest */;
+			name = lendoUITests;
+			productName = lendoUITests;
+			productReference = 06C9C31E2A40D78300862DCB /* lendoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		06224DBD2A2A8E5C000B8AED /* Project object */ = {
+		06C9C2F62A40D78200862DCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					06224DC42A2A8E5C000B8AED = {
-						CreatedOnToolsVersion = 14.3;
+					06C9C2FD2A40D78200862DCB = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
-					06224DD42A2A8E5D000B8AED = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 06224DC42A2A8E5C000B8AED;
+					06C9C3132A40D78300862DCB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 06C9C2FD2A40D78200862DCB;
 					};
-					06224DDE2A2A8E5D000B8AED = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 06224DC42A2A8E5C000B8AED;
+					06C9C31D2A40D78300862DCB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 06C9C2FD2A40D78200862DCB;
 					};
 				};
 			};
-			buildConfigurationList = 06224DC02A2A8E5C000B8AED /* Build configuration list for PBXProject "Anuncios" */;
+			buildConfigurationList = 06C9C2F92A40D78200862DCB /* Build configuration list for PBXProject "lendo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 06224DBC2A2A8E5C000B8AED;
-			productRefGroup = 06224DC62A2A8E5C000B8AED /* Products */;
+			mainGroup = 06C9C2F52A40D78200862DCB;
+			productRefGroup = 06C9C2FF2A40D78200862DCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06224DC42A2A8E5C000B8AED /* Anuncios */,
-				06224DD42A2A8E5D000B8AED /* AnunciosTests */,
-				06224DDE2A2A8E5D000B8AED /* AnunciosUITests */,
+				06C9C2FD2A40D78200862DCB /* lendo */,
+				06C9C3132A40D78300862DCB /* lendoTests */,
+				06C9C31D2A40D78300862DCB /* lendoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06224DC32A2A8E5C000B8AED /* Resources */ = {
+		06C9C2FC2A40D78200862DCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0644BA892A40CF9000D5AC9E /* Launch Screen.storyboard in Resources */,
-				06224DD02A2A8E5D000B8AED /* Preview Assets.xcassets in Resources */,
-				06224DCD2A2A8E5D000B8AED /* Assets.xcassets in Resources */,
+				06C9C30E2A40D78300862DCB /* LaunchScreen.storyboard in Resources */,
+				06C9C30B2A40D78300862DCB /* Assets.xcassets in Resources */,
+				06C9C3092A40D78200862DCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DD32A2A8E5D000B8AED /* Resources */ = {
+		06C9C3122A40D78300862DCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DDD2A2A8E5D000B8AED /* Resources */ = {
+		06C9C31C2A40D78300862DCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06224DC12A2A8E5C000B8AED /* Sources */ = {
+		06C9C2FA2A40D78200862DCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06224DCB2A2A8E5C000B8AED /* ContentView.swift in Sources */,
-				06224DC92A2A8E5C000B8AED /* AnunciosApp.swift in Sources */,
+				06C9C3062A40D78200862DCB /* ViewController.swift in Sources */,
+				06C9C3022A40D78200862DCB /* AppDelegate.swift in Sources */,
+				06C9C3042A40D78200862DCB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DD12A2A8E5D000B8AED /* Sources */ = {
+		06C9C3102A40D78300862DCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06224DDA2A2A8E5D000B8AED /* AnunciosTests.swift in Sources */,
+				06C9C3192A40D78300862DCB /* lendoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06224DDB2A2A8E5D000B8AED /* Sources */ = {
+		06C9C31A2A40D78300862DCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06224DE62A2A8E5D000B8AED /* AnunciosUITestsLaunchTests.swift in Sources */,
-				06224DE42A2A8E5D000B8AED /* AnunciosUITests.swift in Sources */,
+				06C9C3232A40D78300862DCB /* lendoUITests.swift in Sources */,
+				06C9C3252A40D78300862DCB /* lendoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06224DD72A2A8E5D000B8AED /* PBXTargetDependency */ = {
+		06C9C3162A40D78300862DCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06224DC42A2A8E5C000B8AED /* Anuncios */;
-			targetProxy = 06224DD62A2A8E5D000B8AED /* PBXContainerItemProxy */;
+			target = 06C9C2FD2A40D78200862DCB /* lendo */;
+			targetProxy = 06C9C3152A40D78300862DCB /* PBXContainerItemProxy */;
 		};
-		06224DE12A2A8E5D000B8AED /* PBXTargetDependency */ = {
+		06C9C3202A40D78300862DCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06224DC42A2A8E5C000B8AED /* Anuncios */;
-			targetProxy = 06224DE02A2A8E5D000B8AED /* PBXContainerItemProxy */;
+			target = 06C9C2FD2A40D78200862DCB /* lendo */;
+			targetProxy = 06C9C31F2A40D78300862DCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		06C9C3072A40D78200862DCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C9C3082A40D78200862DCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06C9C30C2A40D78300862DCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C9C30D2A40D78300862DCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		06224DE72A2A8E5D000B8AED /* Debug */ = {
+		06C9C3262A40D78300862DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		06224DE82A2A8E5D000B8AED /* Release */ = {
+		06C9C3272A40D78300862DCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,22 +430,19 @@
 			};
 			name = Release;
 		};
-		06224DEA2A2A8E5D000B8AED /* Debug */ = {
+		06C9C3292A40D78300862DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Anuncios/Preview Content\"";
 				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = lendo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.Anuncios;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,22 +458,19 @@
 			};
 			name = Debug;
 		};
-		06224DEB2A2A8E5D000B8AED /* Release */ = {
+		06C9C32A2A40D78300862DCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Anuncios/Preview Content\"";
 				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = lendo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.Anuncios;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,118 +486,122 @@
 			};
 			name = Release;
 		};
-		06224DED2A2A8E5D000B8AED /* Debug */ = {
+		06C9C32C2A40D78300862DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.AnunciosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anuncios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anuncios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lendo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lendo";
 			};
 			name = Debug;
 		};
-		06224DEE2A2A8E5D000B8AED /* Release */ = {
+		06C9C32D2A40D78300862DCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.AnunciosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anuncios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anuncios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lendo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lendo";
 			};
 			name = Release;
 		};
-		06224DF02A2A8E5D000B8AED /* Debug */ = {
+		06C9C32F2A40D78300862DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.AnunciosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Anuncios;
+				TEST_TARGET_NAME = lendo;
 			};
 			name = Debug;
 		};
-		06224DF12A2A8E5D000B8AED /* Release */ = {
+		06C9C3302A40D78300862DCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RK2L8FPJ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.AnunciosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.gustavobergamo.lendoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Anuncios;
+				TEST_TARGET_NAME = lendo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06224DC02A2A8E5C000B8AED /* Build configuration list for PBXProject "Anuncios" */ = {
+		06C9C2F92A40D78200862DCB /* Build configuration list for PBXProject "lendo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06224DE72A2A8E5D000B8AED /* Debug */,
-				06224DE82A2A8E5D000B8AED /* Release */,
+				06C9C3262A40D78300862DCB /* Debug */,
+				06C9C3272A40D78300862DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06224DE92A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "Anuncios" */ = {
+		06C9C3282A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06224DEA2A2A8E5D000B8AED /* Debug */,
-				06224DEB2A2A8E5D000B8AED /* Release */,
+				06C9C3292A40D78300862DCB /* Debug */,
+				06C9C32A2A40D78300862DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06224DEC2A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "AnunciosTests" */ = {
+		06C9C32B2A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06224DED2A2A8E5D000B8AED /* Debug */,
-				06224DEE2A2A8E5D000B8AED /* Release */,
+				06C9C32C2A40D78300862DCB /* Debug */,
+				06C9C32D2A40D78300862DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06224DEF2A2A8E5D000B8AED /* Build configuration list for PBXNativeTarget "AnunciosUITests" */ = {
+		06C9C32E2A40D78300862DCB /* Build configuration list for PBXNativeTarget "lendoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06224DF02A2A8E5D000B8AED /* Debug */,
-				06224DF12A2A8E5D000B8AED /* Release */,
+				06C9C32F2A40D78300862DCB /* Debug */,
+				06C9C3302A40D78300862DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 06224DBD2A2A8E5C000B8AED /* Project object */;
+	rootObject = 06C9C2F62A40D78200862DCB /* Project object */;
 }
