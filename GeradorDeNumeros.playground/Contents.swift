@@ -43,3 +43,27 @@ func lotoFacilGenerator2(total:Int){
 lotoFacilGenerator2(total: 4)
 //chamando a função com parâmetro correto
 lotoFacilGenerator2(total: 19)
+
+//se ao inves de imprimir, eu quiser que retorne um resultado
+func lotoFacilGenerator3(total: Int) -> Set<Int> {
+    if (total < 15 || total > 20) {
+        print("o número deve estar entre 15 e 20")
+    }else{
+        var numbers = total
+        var result: Set<Int> = [] //o Set serve pra não colocar números repetidos no grupo
+        
+        while(numbers > 0) {
+            let generated = Int.random(in: 1...25)
+            let res = result.insert(generated)
+            
+            if (res.inserted){
+                numbers -= 1
+            }
+            
+        }
+        return result
+    }
+    
+    let result1 = lotoFacilGenerator3(total: 15)
+    print (result1)
+

@@ -89,7 +89,7 @@ print(age)
 print(user)
 
 //ARRAYS (lista de dados com elementos do mesmo tipo)
-let game1 = [2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 15, 16, 18, 21, 25]
+let game1 = [3, 2, 4, 5, 7, 9, 10, 11, 12, 13, 15, 16, 18, 21, 25]
 //especificando tipo
 let game2: [Int] = [1, 2, 6, 7, 8, 9, 11, 14, 17, 19, 20, 21, 22, 23, 24]
 
@@ -102,8 +102,51 @@ print("Imprimindo na mesma ", terminator: " ")
 
 print("linha")
 
+//coisas para fazer com arrays:
+game1.count
+game1.first
+game1.last
+game1[0]
+game1[1]
+game1.sorted()
+game1.shuffled()
+
+//Dictionaries, diferente dos arrays tem chave(valor)
+//Key = String, Int, {outro objeto}
+//são sequenciais
+
+//declarando dictionary vazio
+//var student: [String:Int] = [:]
+//declarando dictionary preenchido
+var student: [Int:String] = [
+    1 : "Ana Maria",
+    2 : "Beatriz Cruz",
+    3 : "Pedro Vaz",
+    4 : "Zumira Zelim"
+]
+print(student.count)
+//o depois do ?? é o que faz quando não encontra
+print(student[1] ?? "nada encontrado")
+print(student[9] ?? "nada encontrado")
+
+//para atualizar o valor
+student[1] = "Letritricia"
+print(student[1] ?? "nada encontrado")
+//para remover atribui nulo
+student[1] = nil
+print(student[1] ?? "nada encontrado")
+
+for key in student.keys {
+    print(key)
+}
+
+for (key, value) in student {
+    print("chave: \(key), valor: \(value)")
+}
 
 
-
-
+//IF LET
+//Primeiro verifica se existe, faz condição para sucesso ou erro
+//GUARD LET
+//faz a mesma coisa só que resumido. Primeiro trata a erro depois o suesso
 
