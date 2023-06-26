@@ -52,7 +52,7 @@ let weekendDays: Set<String> = ["Saturday", "Sunday"]
 
 // Create a new set called weekDays by using the subtracting method to remove the weekendDays from the daysOfWeek set.
 
-
-
+let weekDays: Set<String> = daysOfWeek.subtracting(weekendDays)
 
 // Print the weekDays. It should read Codeday, Tuesday, Wednesday, Thursday, Friday (but probably not in that order).
+print(weekDays)
