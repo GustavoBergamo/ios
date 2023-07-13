@@ -3,6 +3,22 @@ import UIKit
 // Sean Allen iOS Dev Launchpad
 // Structs Challenge
 
+//EXTENSION Serve para colocar mais alguma funcionalidade em alguma coisa
+extension String{
+    func removeSpaces() -> String {
+        return components(separatedBy: .whitespaces).joined()
+    }
+}
+let phrase = "Escrevi tudo com espaço e deve imprimir junto"
+print(phrase.removeSpaces())
+
+
+// Cuidado quando for pegar o conteúdo de uma variável e passar para outra
+// Porque o Swift faz como o C#, ele referencia ao invés de fazer uma cópia.
+// P.E.: joe = sean // joe.name = "josé"// sean.name será "josé também"
+//Para resolver isso, se estiver em uma classe, ao invés de classe deverá mudar para struct
+//e na struct não precisa inicializar as variáveis, ele já faz sozinho.
+
 // Let's start with a simple challenge:
 // Make a struct called Glass, to represent a glass with water in it.
 //  It should have one property:
@@ -61,3 +77,5 @@ print("Point 4 is \(point4.x), \(point4.y)")
 
 
 // Read 17_Structs_Solution.playground to see more information and examples about Structs, including a Go Deeper section.
+
+
