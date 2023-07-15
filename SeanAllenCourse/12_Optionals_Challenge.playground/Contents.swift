@@ -43,7 +43,8 @@ let forced = ages.last! //colocando exclamação no final, obriga fazer mesmo se
                 print("The optional is empty! It doesn't contain a number.")
             }
         }
-printOptional_Example1(number: 12)
+printOptional_Example1(number: nil)
+printOptional_Example1(number: 5)
         // Example 2 is exactly the same function as example 1. All I've done is rename the variables in a way that I hope explains what's actually happening.
         func printOptional_Example2(numberPassedIntoTheFunction: Int?) {
             if let numberUsedInIfStatement = numberPassedIntoTheFunction {
@@ -52,6 +53,9 @@ printOptional_Example1(number: 12)
                 print("The optional is empty! It doesn't contain a number.")
             }
         }
+printOptional_Example2(numberPassedIntoTheFunction: 12)
+printOptional_Example1(number: nil)
+
         // So, when you see: let number = number, the number on the left of the equal sign is used inside the if statement. The number on the right of the equal sign is the number that was passed into the function. You don't have to give them both the same name (like example 1), but a lot developers do because it keeps the code cleaner by reducing the number of variable names.
         // By the way, you should know this method is called optional binding, because we're binding the optional to a constant that can be used later in the if or guard statement.
 
@@ -94,7 +98,10 @@ printOptional_Example1(number: 12)
 
 // Because a person might not have a license number, change the constant below to be an OPTIONAL Integer.
 // Give it a value of either a number or nil. Up to you.
-let licenseNumber = 0
+let licenseNumber: Int?
+licenseNumber = nil
+
+print(licenseNumber as Any)
 
 
 // Let's print out our license number in four different ways, as explained in the video.
@@ -103,8 +110,15 @@ let licenseNumber = 0
 
 // Complete this function using the if let method (known as optional binding) to handle the optional value.
 func printLicenseIfLet(number: Int?) {
-
+    if let number = number{
+        print("My license number is [\(number)]")
+    }else{
+        print("I do not have a license yet!")
+    }
 }
+
+printLicenseIfLet(number: 2)
+printLicenseIfLet(number: nil)
 
 // Complete this function using Nil Coalescing operator to handle the optional value.
 // This technique is really not the best for our purpose -- printing out a message.
@@ -155,7 +169,7 @@ var variable2: [Int?]? = [7]
 
 // Let's handle Mr. Schrodinger's cat using the power of Swift optionals.
 // Change the variable called schrodingersCat to an optional string. After all, the cat might be dead.
-var schrodingersCat = "black"
+var schrodingersCat: String? = "black"
 
 
 
@@ -164,7 +178,11 @@ var schrodingersCat = "black"
 // The other 50% of the time, it should leave the value of schrodingersCat unchanged.
 // Hint: Bool.random() will return true 50% of the time and false 50% of the time.
 func killTheCat() {
-
+    var randomNumber: Bool = Bool.random()
+    if randomNumber == true{
+        schrodingersCat = nil
+    }else{}
+    
 }
 
 // Call the function

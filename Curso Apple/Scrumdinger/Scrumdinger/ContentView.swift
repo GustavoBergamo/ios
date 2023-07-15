@@ -29,6 +29,7 @@ struct MeetingView: View {
             HStack {
                 Text("alto-falante 1 de 3")
                     .font(.largeTitle)
+                Spacer()
                 Button(action: {}) {
                     Image(systemName: "forward.fill")
                         .font(.largeTitle)
