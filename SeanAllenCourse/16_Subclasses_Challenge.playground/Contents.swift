@@ -75,20 +75,9 @@ myMag.title
 //      Answer:  Title is "National Geographic" because that's what we passed into the initializer.
 // Finally, print the magazine details to verify that it prints out a message about National Geo.
 myMag.printDetails()
-
 // Go Deeper
 
 // Below is the class we wrote for a Car on the previous challenge.
-
-// Write a Class called Pickup that is a subclass of Car. Give it the following three properties.
-//  extendedCab: Bool
-//  is4WD: Bool
-//  isHeavyDuty: Bool
-
-// Here's where you might run into trouble... Your Pickup class has to have an init(). BUT, this init will also needs to call the it's parent init (that is, the Car class init)! You can do that using super.init(...). Finally, as you're about to discover, the ORDER matters, whether you call the super.init first or whether you setup the Pickup properties first. See if you can get it to work.
-
-// Stuck? If you couldn't get it to work, it's OK to just skip ahead and checkout the solution!
-
 class Car {
     let make: String
     let model: String
@@ -118,22 +107,36 @@ class Car {
         return value
     }
 }
+// Write a Class called Pickup that is a subclass of Car. Give it the following three properties.
+//  extendedCab: Bool
+//  is4WD: Bool
+//  isHeavyDuty: Bool
+
+// Here's where you might run into trouble... Your Pickup class has to have an init(). BUT, this init will also needs to call the it's parent init (that is, the Car class init)! You can do that using super.init(...). Finally, as you're about to discover, the ORDER matters, whether you call the super.init first or whether you setup the Pickup properties first. See if you can get it to work.
+
+// Stuck? If you couldn't get it to work, it's OK to just skip ahead and checkout the solution!
+
+
 
 // Write your subclass for Pickup
-
-
-
-
+class Pickup: Car{
+    var extendedCab: Bool
+    var is4WD: Bool
+    var isHeavyDuty: Bool
+        
+    init(extendedCab: Bool, is4WD: Bool, isHeavyDuty: Bool) {
+        self.extendedCab = extendedCab
+        self.is4WD = is4WD
+        self.isHeavyDuty = isHeavyDuty
+        super.init(make: "Mini", model: "BMW", modelYear: 2020, color: "Blue", maxSpeed: 180, value: 350000)
+    }
+    
+}
 // Make a constant called myPickup and set it to an instance of your Pickup class.
 // Give it any values you'd like.
-
-
-
-
+let myPickup = Pickup.init(extendedCab: true, is4WD: true, isHeavyDuty: false)
 // Print out a message whether the truck has 4WD.
-
-
-
+if myPickup.is4WD == true {print("Has 4WD")} else {print("Hasn't 4WD")}
 
 // Notice how long the initializer is. What could we do if we didn't want to require giving all the properties values at the time of initialization?
 // Answer:

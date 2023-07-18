@@ -11,8 +11,6 @@ extension String{
 }
 let phrase = "Escrevi tudo com espaço e deve imprimir junto"
 print(phrase.removeSpaces())
-
-
 // Cuidado quando for pegar o conteúdo de uma variável e passar para outra
 // Porque o Swift faz como o C#, ele referencia ao invés de fazer uma cópia.
 // P.E.: joe = sean // joe.name = "josé"// sean.name será "josé também"
@@ -21,25 +19,50 @@ print(phrase.removeSpaces())
 
 // Let's start with a simple challenge:
 // Make a struct called Glass, to represent a glass with water in it.
-//  It should have one property:
-//      waterLevel, a variable of type double.
-//      (We'll use 1.0 to mean a glass that's 100% full,
-//      0.5 for 50%, and 0 will be a glass that's empty.)
-// It should have one method:
-//  isEmpty(), that prints a message:
-//      "The glass is empty." when the waterLevel is 0.
-//      "There's still some water in the glass." when the waterLevel is greater than 0.
-
-
-
-
+struct Glass {
+    //  It should have one property:
+    //      waterLevel, a variable of type double.
+    var waterLevel: Double
+    init (waterLevel: Double) {
+        self.waterLevel = waterLevel
+    }
+    //      (We'll use 1.0 to mean a glass that's 100% full,
+    //      0.5 for 50%, and 0 will be a glass that's empty.)
+    // It should have one method:
+    //  isEmpty(), that prints a message:
+    //      "The glass is empty." when the waterLevel is 0.
+    //      "There's still some water in the glass." when the waterLevel is greater than 0.
+    func isEmpty() {
+        if waterLevel > 0 {
+            print("There's still some water in the glass.")
+        }else{
+            print("The glass is empty")
+        }
+    }
+}
 // Make variable called myGlass and set it's value to an instance of the Glass struct. At the time of initialization, set it's waterLevel to 1.
+var myGlass = Glass(waterLevel: 1)
 // Change the value of myGlass to represent drinking half the glass.
+myGlass.waterLevel = 0.5
 // Check if the glass is empty.
+myGlass.isEmpty()
 // Change the value of myGlass to represent drinking the second half of the glass.
+myGlass.waterLevel = (myGlass.waterLevel - (myGlass.waterLevel / 2))
 // Check if the glass is empty.
+myGlass.isEmpty()
+myGlass.waterLevel -= myGlass.waterLevel
+myGlass.isEmpty()
 
-
+/////////////
+//DIFERENÇA CLASS E STRUCT
+//Classes possuem o conceito de herança. Logo, é possível extender uma UIButton porque ela é uma classe.
+//Classes podem definir "destrutor" deinit() que são funções chamadas antes da instância ser desalocada.
+//Classes podem ter uma ou mais referências para uma única instância (importante!)
+//A Principal Diferença Entre Classes e Structs
+//Agora que você já sabe o que estes dois elementos tem em comum e o que classes podem fazer e structs não pode, vamos ver a principal diferença entre classes e structs.
+//
+//Classes são reference types. Isto é, seus valores são passados por referência para o mesmo espaço de memória. Já Structs são value types. Ou seja, seus valores são copiados para um novo espaço de memória.
+////////////
 
 
 // Read the code below very carefully. I've tried to make it as simple as possible. Basically, I have a struct and a class doing exactly the same thing: defining a point with x and y coordinates.
