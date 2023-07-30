@@ -10,6 +10,8 @@ import UIKit
 class lotofacilVC: UIViewController {
     var go: Int = 0
     var gt: Int = 0
+    var count: Int = 0
+    
     
 
 
@@ -51,148 +53,250 @@ class lotofacilVC: UIViewController {
     @IBOutlet weak var zero: UILabel!
     
     //buttons action
-    @IBAction func one(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        one.isHidden = true
-    }
-    @IBAction func two(_ sender: Any) {
-        go = go + 1
-        gt = gt + 1
-        result.text = "\(go)"
-        r2.text = "\(gt)"
-        two.isHidden = true
-    }
-    
-    @IBAction func b3(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b3.isHidden = true
-    }
-    
-    @IBAction func b4(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b4.isHidden = true
-    }
-    
-    @IBAction func b5(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b5.isHidden = true
-    }
-    
-    @IBAction func b6(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b6.isHidden = true
-    }
-    @IBAction func b7(_ sender: Any) {
-        go = go + 1
-        gt = gt + 1
-        result.text = "\(go)"
-        r2.text = "\(gt)"
-        b7.isHidden = true
-    }
-    @IBAction func b8(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b8.isHidden = true
-    }
-    @IBAction func b9(_ sender: Any) {
-        go = go + 1
-        gt = gt + 1
-        result.text = "\(go)"
-        r2.text = "\(gt)"
-        b9.isHidden = true
-    }
-    @IBAction func b10(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b10.isHidden = true
-    }
-    @IBAction func b11(_ sender: Any) {
-        go = go + 1
-        gt = gt + 1
-        result.text = "\(go)"
-        r2.text = "\(gt)"
-        b11.isHidden = true
-    }
-    @IBAction func b12(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b12.isHidden = true
-    }
-    @IBAction func b13(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b13.isHidden = true
-    }
-    @IBAction func b14(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b14.isHidden = true
-    }
-    @IBAction func b15(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b15.isHidden = true
-    }
-    @IBAction func b16(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b16.isHidden = true
-    }
-    @IBAction func b17(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b17.isHidden = true
-    }
-    @IBAction func b18(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b18.isHidden = true
-    }
-    @IBAction func b19(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b19.isHidden = true
-    }
-    @IBAction func b20(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b20.isHidden = true
-    }
-    @IBAction func b21(_ sender: Any) {
-        go = go + 1
-        gt = gt + 1
-        result.text = "\(go)"
-        r2.text = "\(gt)"
-        b21.isHidden = true
-    }
-    @IBAction func b22(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b22.isHidden = true
-    }
-    @IBAction func b23(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b23.isHidden = true
-    }
-    @IBAction func b24(_ sender: Any) {
-        gt = gt + 1
-        r2.text = "\(gt)"
-        b24.isHidden = true
-    }
-    @IBAction func b25(_ sender: Any) {
-        go = go + 1
-        result.text = "\(go)"
-        b25.isHidden = true
-    }
+        @IBAction func one(_ sender: Any) {
+            if count < 15{
+                gt = gt + 1
+                r2.text = "\(gt)"
+                one.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+
+        }
+        @IBAction func two(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                gt = gt + 1
+                result.text = "\(go)"
+                r2.text = "\(gt)"
+                two.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        
+        @IBAction func b3(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b3.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        
+        @IBAction func b4(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b4.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        
+        @IBAction func b5(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b5.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        
+        @IBAction func b6(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b6.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b7(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                gt = gt + 1
+                result.text = "\(go)"
+                r2.text = "\(gt)"
+                b7.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b8(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b8.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b9(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                gt = gt + 1
+                result.text = "\(go)"
+                r2.text = "\(gt)"
+                b9.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b10(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b10.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b11(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                gt = gt + 1
+                result.text = "\(go)"
+                r2.text = "\(gt)"
+                b11.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b12(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b12.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b13(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b13.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b14(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b14.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b15(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b15.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b16(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b16.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b17(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b17.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b18(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b18.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b19(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b19.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b20(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b20.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b21(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                gt = gt + 1
+                result.text = "\(go)"
+                r2.text = "\(gt)"
+                b21.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b22(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b22.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b23(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b23.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b24(_ sender: Any) {
+            if count < 15 {
+                gt = gt + 1
+                r2.text = "\(gt)"
+                b24.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
+        @IBAction func b25(_ sender: Any) {
+            if count < 15 {
+                go = go + 1
+                result.text = "\(go)"
+                b25.isHidden = true
+                count = count + 1
+                ni.text = "\(count)"
+            }
+        }
     
     
     @IBAction func reinit(_ sender: Any) {
+        count = 0
         go = 0
         gt = 0
         result.text = "0"
@@ -222,11 +326,11 @@ class lotofacilVC: UIViewController {
         b23.isHidden = false
         b24.isHidden = false
         b25.isHidden = false
+        ni.text = "\(count)"
         }
+    
     //labels
     @IBOutlet weak var result: UILabel!
-    
+    @IBOutlet weak var ni: UILabel!
     @IBOutlet weak var r2: UILabel!
-    
-
 }
