@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22146" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WAD-DW-Heg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22122"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Correção LF-->
+        <scene sceneID="Qj7-Bb-r2e">
+            <objects>
+                <viewController id="jIg-jg-AcY" customClass="lotofacilVC" customModule="Consulta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XhY-6Q-w0U">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEN-dw-OYs">
+                                <rect key="frame" x="0.0" y="103" width="48" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="1" buttonSize="large"/>
+                                <connections>
+                                    <action selector="one:" destination="jIg-jg-AcY" eventType="touchUpInside" id="zrh-O6-91R"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYY-7k-vUa">
+                                <rect key="frame" x="79" y="514" width="80" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6a-OK-YY6">
+                                <rect key="frame" x="150" y="103" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="3" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b3:" destination="jIg-jg-AcY" eventType="touchUpInside" id="Hdm-hg-KDU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMI-Y7-KVf">
+                                <rect key="frame" x="232" y="103" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="4" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b4:" destination="jIg-jg-AcY" eventType="touchUpInside" id="et9-Nq-Tvk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPr-qV-doJ">
+                                <rect key="frame" x="314" y="103" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="5" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b5:" destination="jIg-jg-AcY" eventType="touchUpInside" id="0na-pT-blA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxu-Mp-o78">
+                                <rect key="frame" x="0.0" y="162" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="6" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b6:" destination="jIg-jg-AcY" eventType="touchUpInside" id="qfR-go-p01"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ull-f6-IBA">
+                                <rect key="frame" x="72" y="162" width="50" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="7" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b7:" destination="jIg-jg-AcY" eventType="touchUpInside" id="QAv-nY-8yV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhf-Pd-KKF">
+                                <rect key="frame" x="150" y="161" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="8" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b8:" destination="jIg-jg-AcY" eventType="touchUpInside" id="ayJ-fJ-iIQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iva-Xx-KR8">
+                                <rect key="frame" x="232" y="162" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="9" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b9:" destination="jIg-jg-AcY" eventType="touchUpInside" id="oAy-op-tz5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzE-sW-Lcc">
+                                <rect key="frame" x="22" y="301" width="55" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="11" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b11:" destination="jIg-jg-AcY" eventType="touchUpInside" id="1k7-4J-wSc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMJ-x7-RxG">
+                                <rect key="frame" x="90" y="301" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="12" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b12:" destination="jIg-jg-AcY" eventType="touchUpInside" id="ajG-LR-vcm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ2-5P-UfL">
+                                <rect key="frame" x="169" y="301" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="13" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b13:" destination="jIg-jg-AcY" eventType="touchUpInside" id="27N-T7-fzh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lj4-c8-FWO">
+                                <rect key="frame" x="248" y="301" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="14" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b14:" destination="jIg-jg-AcY" eventType="touchUpInside" id="rH0-6B-Nfb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xs-5u-iYo">
+                                <rect key="frame" x="324" y="301" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="15" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b15:" destination="jIg-jg-AcY" eventType="touchUpInside" id="83F-mE-XCe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASy-ht-SCI">
+                                <rect key="frame" x="21" y="372" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="16" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b16:" destination="jIg-jg-AcY" eventType="touchUpInside" id="sUO-pD-vIK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSw-az-X5i">
+                                <rect key="frame" x="91" y="372" width="57" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="17" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b17:" destination="jIg-jg-AcY" eventType="touchUpInside" id="lTl-if-ZGP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3t-SN-Xsa">
+                                <rect key="frame" x="169" y="372" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="18" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b18:" destination="jIg-jg-AcY" eventType="touchUpInside" id="Nyn-wt-gP0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxy-XS-HFh">
+                                <rect key="frame" x="248" y="372" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="19" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b19:" destination="jIg-jg-AcY" eventType="touchUpInside" id="nr9-gp-Ht0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAU-mi-asV">
+                                <rect key="frame" x="323" y="372" width="61" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="20" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b20:" destination="jIg-jg-AcY" eventType="touchUpInside" id="8Hj-6I-Bv7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02C-cV-0OA">
+                                <rect key="frame" x="270" y="514" width="71" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iJ-rM-bME">
+                                <rect key="frame" x="21" y="446" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="21" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b21:" destination="jIg-jg-AcY" eventType="touchUpInside" id="ZfM-mQ-HYF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBi-r3-8Th">
+                                <rect key="frame" x="90" y="446" width="60" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="22" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b22:" destination="jIg-jg-AcY" eventType="touchUpInside" id="8sD-9z-IOP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqj-lz-e3J">
+                                <rect key="frame" x="168" y="446" width="61" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="23" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b23:" destination="jIg-jg-AcY" eventType="touchUpInside" id="xP5-SK-Idr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcH-33-vJV">
+                                <rect key="frame" x="247" y="446" width="61" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="24" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b24:" destination="jIg-jg-AcY" eventType="touchUpInside" id="TdI-LR-yQr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuB-6S-EZy">
+                                <rect key="frame" x="324" y="446" width="60" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="25" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b25:" destination="jIg-jg-AcY" eventType="touchUpInside" id="giO-1y-W1P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvf-OH-BZx">
+                                <rect key="frame" x="42" y="621" width="111" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Recomeçar"/>
+                                <connections>
+                                    <action selector="reinit:" destination="jIg-jg-AcY" eventType="touchUpInside" id="4Qt-TT-7QZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOy-MT-WN8">
+                                <rect key="frame" x="72" y="103" width="50" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="2" buttonSize="large"/>
+                                <connections>
+                                    <action selector="two:" destination="jIg-jg-AcY" eventType="touchUpInside" id="daO-8I-e18"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNs-bY-JZI">
+                                <rect key="frame" x="310" y="162" width="58" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="10" buttonSize="large"/>
+                                <connections>
+                                    <action selector="b10:" destination="jIg-jg-AcY" eventType="touchUpInside" id="hbD-Eq-Kz1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bJj-M4-Pef"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Correção LF" id="pdp-1W-nkx">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="gqA-PC-THf">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="xaZ-kT-ZAN">
+                                <rect key="frame" x="335" y="4.6666666666666679" width="42" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="LT"/>
+                                <connections>
+                                    <action selector="ButtomLatam:" destination="jIg-jg-AcY" eventType="touchUpInside" id="Di5-yM-13I"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="b10" destination="jNs-bY-JZI" id="nKd-8X-y1S"/>
+                        <outlet property="b11" destination="jzE-sW-Lcc" id="8Wo-Tu-8wS"/>
+                        <outlet property="b12" destination="rMJ-x7-RxG" id="iRE-2M-CrQ"/>
+                        <outlet property="b13" destination="KJ2-5P-UfL" id="F3p-nt-f9g"/>
+                        <outlet property="b14" destination="Lj4-c8-FWO" id="1ed-DH-U9E"/>
+                        <outlet property="b15" destination="9Xs-5u-iYo" id="7iE-DO-ygi"/>
+                        <outlet property="b16" destination="ASy-ht-SCI" id="qHa-JT-RAh"/>
+                        <outlet property="b17" destination="nSw-az-X5i" id="w0g-7q-1dC"/>
+                        <outlet property="b18" destination="D3t-SN-Xsa" id="GPI-TZ-p52"/>
+                        <outlet property="b19" destination="Gxy-XS-HFh" id="9Jo-8O-4n2"/>
+                        <outlet property="b20" destination="CAU-mi-asV" id="KS7-zE-PPP"/>
+                        <outlet property="b21" destination="9iJ-rM-bME" id="ftP-3o-nYe"/>
+                        <outlet property="b22" destination="lBi-r3-8Th" id="Yw2-3w-kax"/>
+                        <outlet property="b23" destination="Zqj-lz-e3J" id="5Hv-a3-p0n"/>
+                        <outlet property="b24" destination="BcH-33-vJV" id="rps-sh-11y"/>
+                        <outlet property="b25" destination="BuB-6S-EZy" id="Ulg-c0-TVi"/>
+                        <outlet property="b3" destination="m6a-OK-YY6" id="B5e-JT-oex"/>
+                        <outlet property="b4" destination="DMI-Y7-KVf" id="a9z-KP-fbz"/>
+                        <outlet property="b5" destination="LPr-qV-doJ" id="7dr-Bf-0pX"/>
+                        <outlet property="b6" destination="uxu-Mp-o78" id="Kcv-ev-Gze"/>
+                        <outlet property="b7" destination="Ull-f6-IBA" id="aaH-hV-kcD"/>
+                        <outlet property="b8" destination="Nhf-Pd-KKF" id="gn8-P5-D0g"/>
+                        <outlet property="b9" destination="Iva-Xx-KR8" id="6wL-fh-RhH"/>
+                        <outlet property="one" destination="JEN-dw-OYs" id="fT7-P5-t5E"/>
+                        <outlet property="r2" destination="02C-cV-0OA" id="3GC-g0-tRf"/>
+                        <outlet property="result" destination="CYY-7k-vUa" id="jWM-65-pq1"/>
+                        <outlet property="two" destination="eOy-MT-WN8" id="Hcb-Fo-Jjp"/>
+                        <outlet property="zero" destination="CYY-7k-vUa" id="sIp-Ul-8uv"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toLatam" id="IwD-G5-7UE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5CA-5c-mrY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-118.32061068702289" y="52.816901408450704"/>
+        </scene>
+        <!--Botões-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Botões" id="BYZ-38-t0r" customClass="ViewController" customModule="Consulta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="19452914_1595693790464403_6956493507145466192_o" translatesAutoresizingMaskIntoConstraints="NO" id="BGY-ws-nDq">
+                                <rect key="frame" x="-303.66666666666669" y="-74.333333333333314" width="1000.3333333333335" height="1000.6666666666665"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1000.3333333333335" id="2hM-Ey-gcK"/>
+                                    <constraint firstAttribute="height" constant="1000.3333333333334" id="PTo-Za-7y3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uS9-py-L76">
+                                <rect key="frame" x="16" y="103" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Embarque"/>
+                                <connections>
+                                    <segue destination="NXC-1N-Gaj" kind="show" id="SwV-zw-XLg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZY-IZ-nry">
+                                <rect key="frame" x="275" y="103" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Embarque"/>
+                                <connections>
+                                    <segue destination="srt-nK-FbO" kind="show" id="tG9-FJ-Oky"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsG-O5-mpp">
+                                <rect key="frame" x="16" y="146" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Coronavirus"/>
+                                <connections>
+                                    <segue destination="APP-B9-hMW" kind="show" id="d40-h1-zNq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YD3-XM-I7b">
+                                <rect key="frame" x="261" y="145" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Coronavirus"/>
+                                <connections>
+                                    <segue destination="2GL-kn-n89" kind="show" id="QIw-t8-h7R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5G-XR-dPc">
+                                <rect key="frame" x="216" y="231" width="161" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Após soltar cintos"/>
+                                <connections>
+                                    <segue destination="Qj3-dp-saw" kind="show" id="Rvx-Pq-zn7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xw-Xe-jQW">
+                                <rect key="frame" x="16" y="189" width="108" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Latam Play"/>
+                                <connections>
+                                    <segue destination="0VE-y0-O9W" kind="show" id="Jxe-GU-aAE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu2-3k-TzI">
+                                <rect key="frame" x="269" y="188" width="108" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Latam Play"/>
+                                <connections>
+                                    <segue destination="gM0-Pu-IRW" kind="show" id="izA-31-zpp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtU-4p-j8w">
+                                <rect key="frame" x="16" y="232" width="161" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Após soltar cintos"/>
+                                <connections>
+                                    <segue destination="W0c-i7-zdy" kind="show" id="OHr-9c-ItE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3w-0H-Zel">
+                                <rect key="frame" x="128.66666666666669" y="408.66666666666669" width="135.66666666666669" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Demonstração"/>
+                                <connections>
+                                    <segue destination="byz-6q-jT6" kind="show" id="WmV-Nj-k2r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxt-3c-T2p">
+                                <rect key="frame" x="158.66666666666666" y="537" width="76" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Homer"/>
+                                <connections>
+                                    <action selector="Botao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bdy-f4-6DR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyM-OK-1tf">
+                                <rect key="frame" x="148.66666666666666" y="580" width="96" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Esconder"/>
+                                <connections>
+                                    <action selector="Apagar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iOX-ci-YQ5"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kF7-5S-1hR">
+                                <rect key="frame" x="76.666666666666686" y="724" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="CFx-us-iDb"/>
+                                    <constraint firstAttribute="width" constant="240" id="Y7d-dp-xtu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UyM-OK-1tf" secondAttribute="bottom" constant="203" id="2o7-pz-rNf"/>
+                            <constraint firstItem="UyM-OK-1tf" firstAttribute="centerX" secondItem="kF7-5S-1hR" secondAttribute="centerX" id="JjZ-Tp-LTp"/>
+                            <constraint firstItem="BGY-ws-nDq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NnX-aO-tqH"/>
+                            <constraint firstItem="UyM-OK-1tf" firstAttribute="top" secondItem="sxt-3c-T2p" secondAttribute="bottom" constant="8" id="Wqc-Hn-h1w"/>
+                            <constraint firstItem="b3w-0H-Zel" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XE6-YU-wPu"/>
+                            <constraint firstItem="b3w-0H-Zel" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y8l-bc-WjU"/>
+                            <constraint firstItem="UyM-OK-1tf" firstAttribute="centerX" secondItem="b3w-0H-Zel" secondAttribute="centerX" id="kgk-pA-nhF"/>
+                            <constraint firstItem="UyM-OK-1tf" firstAttribute="centerX" secondItem="sxt-3c-T2p" secondAttribute="centerX" id="ndF-GG-WnG"/>
+                            <constraint firstAttribute="bottom" secondItem="kF7-5S-1hR" secondAttribute="bottom" id="vCA-BU-38k"/>
+                            <constraint firstItem="BGY-ws-nDq" firstAttribute="centerX" secondItem="b3w-0H-Zel" secondAttribute="centerX" id="yYL-Tz-pP9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4OI-cm-tNY"/>
+                    <connections>
+                        <outlet property="Gif" destination="kF7-5S-1hR" id="z9Q-5G-MyW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982.44274809160299" y="-2.1126760563380285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="raR-Bg-MYT">
+            <objects>
+                <viewController id="NXC-1N-Gaj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X4M-g0-ZgX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-tL-zLk">
+                                <rect key="frame" x="0.0" y="81" width="377" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Bem vindos a LATAM, é um prazer tê-los a bordo. Para sairmos no horário previsto, solicitamos que deixem o corredor livre e que ocupem seu assento rapidamente, de forma a facilitar o embarque dos demais passageiros. Por favor, coloquem os seus pertences menores, tais como bolsas, sacolas e mochilas embaixo do assento à sua frente. Os compartimentos superiores são reservados somente para as bagagens maiores.
+Passageiros sentados na primeira fileira e assentos nas saídas de emergência, pedimos que acomodem toda sua bagagem nos compartimentos superiores. Juntos faremos uma viagem segura, muito obrigado/a.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f6j-IU-3Aw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E0h-si-wvG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1O-vE-eU7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2020.6106870229007" y="-362.67605633802816"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QSb-rY-xTx">
+            <objects>
+                <viewController id="APP-B9-hMW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l8Z-Od-BVJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="keg-RU-31z">
+                                <rect key="frame" x="0.0" y="59" width="377" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">A Anvisa orienta: Fique atento a sintomas gripais: se você tiver febre, tosse, dor de garganta, dor de cabeça, coriza, não viaje e procure um serviço de saúde. Para proteger a sua saúde e a de outras pessoas, mantenha atualizada sua vacinação contra a Covid-19, gripe e outras doenças. Vacinas salvam vidas.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="c1F-SR-mon"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MGm-Nx-UtH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SIY-E7-i8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2002.2900763358778" y="298.59154929577466"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qj2-M6-OoB">
+            <objects>
+                <viewController id="2GL-kn-n89" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oRa-hX-cMC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="tPk-7V-iHV">
+                                <rect key="frame" x="0.0" y="59" width="377" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Anvisa alerts: Attention to flu like symptoms: if you have fever, cough, sore throat, headache, and runny nose, do not travel, and seek medical care. To protect your health and the health of others, stay up to date with your vaccinations against Covid-19, influenza, and other illnesses. Vaccines save lives.
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hZX-N2-kxm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e4Y-eb-3OU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1eE-rG-42F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2721.3740458015268" y="298.59154929577466"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ovT-3f-E0w">
+            <objects>
+                <viewController id="srt-nK-FbO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9v-4t-BFa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="u4K-Ud-SGf">
+                                <rect key="frame" x="0.0" y="81" width="377" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Welcome to Latam, it’s a pleasure for us to welcome you a board. In order to allow the boarding and the baggage accommodation, please keep the aisle clear and take your seats. Your personal items such as purses, bags and backpacks, must be placed under the seat in front of you, this includes bottles or vessels in order to avoid spillage. If you are seated in the first row of the cabin and emergency exits, we ask you to stow all personal items in the overhead bins. Together we will have a safe trip.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A2d-aq-fpV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NBs-F3-LYh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ya1-Re-M0L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2721.3740458015268" y="-363.38028169014086"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Nj-eh-s6N">
+            <objects>
+                <viewController id="0VE-y0-O9W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WbU-pE-9YU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="1Fx-gS-mSW">
+                                <rect key="frame" x="0.0" y="59" width="377" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Estimados passageiros, este voo oferece conectividade. Convidamos todos a acessarem gratuitamente aplicativos de mensagens como WhatsApp e Facebook Messenger durante o voo, ou a comprarem um de nossos pacotes de internet. É muito fácil se conectar! Com o dispositivo eletrônico em modo avião, selecionem a rede Wi-Fi LATAM Play e acessem o site latamplay.com no navegador. Vocês também podem ter acesso aos melhores filmes, séries e músicas em nossa plataforma de entretenimento gratuita LATAM Play. Com seus dispositivos eletrônicos no modo avião, conecte-se à rede LATAM Play WI-FI, entre no site play.latam.com através do seu navegador.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gKH-M9-gVv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Zt-dL-3Hi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g94-ql-khs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="laa-2K-F5P">
+            <objects>
+                <viewController id="gM0-Pu-IRW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DQh-8R-dXA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="r8l-ze-iv6">
+                                <rect key="frame" x="0.0" y="59" width="377" height="823.33333333333337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Dear passengers, this flight has online connectivity. We invite you to enjoy free access to messaging applications such as WhatsApp and Facebook Messenger during the flight or to purchase one of our internet packages. Connecting is very easy: with your electronic devices in airplane mode, select the LATAM Play Wi-Fi network and enter latamplay.com using the browser. You can also access the best movies, series and music by entering our free entertainment platform, LATAM Play. With your devices on airplane mode connect to the LATAM Play Wi-Fi network and enter the web page play.latam.com using the browser. Remember to use your headphones; if you do not have them, we suggest activating the subtitles.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Uav-vr-v7r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yTz-AW-gbF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Zv-0H-YA6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PQl-ie-pGX">
+            <objects>
+                <viewController id="byz-6q-jT6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mBO-JY-LXy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="VfC-Ef-5Kn">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="822"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Atenção por favor: Apresentaremos agora as informações de segurança para este avião. Observem atentamente os letreiros e avisos luminosos, assim como as instruções dadas pela tripulação. Equipamentos eletrônicos podem ser utilizados apenas em modo avião. Equipamentos que não possuam essa função devem ser desligados. Caso algum pertence fique preso entre os assentos, antes de tirá-lo ou mover o assento, nos avise que iremos ajudá-lo. Atenda ao sinal luminoso de atar cintos, afivelando seu cinto de segurança. Para isso, una as pontas e ajuste-o ao corpo. Para abri-lo, puxe a parte superior.
+Recomendamos manter o cinto de segurança afivelado e visível durante todo o voo, mesmo que o sinal de atar cintos esteja desligado. É proibido fumar a bordo, inclusive cigarros eletrônicos. Manipular os detectores de fumaça dos lavatórios é proibido por lei. Para a decolagem, sua poltrona deve permanecer na posição vertical, a mesa recolhida e travada, e a bagagem de mão no compartimento superior ou embaixo da poltrona à sua frente. Esta aeronave possui (SEIS/OITO) saídas de emergência: duas na parte dianteira, ( ) na parte central e duas na parte traseira. As luzes de emergência indicam as saídas. Localizem a saída mais próxima, que poderá estar atrás de vocês. Se a cabine perder pressão, máscaras de oxigênio cairão automaticamente acima do seu assento. Puxe a máscara, coloque-a sobre o nariz e a boca, ajuste o elástico em volta da sua cabeça e respire normalmente. Coloque a máscara primeiro em você antes de ajudar crianças ou outras pessoas.
+O equipamento para auxílio à flutuação está indicado à sua frente, podendo ser seu próprio assento ou um colete salva-vidas. Nossa aeronave está equipada com um: *** Assento flutuante, retire-o da poltrona, abrace e segure nas alças, conforme indicado no cartão de segurança.
+*** Colete salva-vidas que está localizado embaixo do seu assento: retire-o da embalagem, passe-o sobre a cabeça, prenda as alças na frente e ajuste-o na cintura. Ao sair do avião, infle o colete puxando a alça vermelha ou soprando pelo tubo.
+Essas e outras informações estão indicadas no cartão de segurança no bolsão à sua frente. Muito Obrigado.
+You can find all this information in the safety card located in the seat pocket in front of you. Thank you.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V2Z-UC-kNy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wjf-Aa-dor"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0HX-GI-hdA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="725"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="N0o-QO-wVy">
+            <objects>
+                <viewController id="W0c-i7-zdy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdb-XT-NKg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zr7-Xg-fvc">
+                                <rect key="frame" x="0.0" y="81" width="377" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Prezados passageiros, em nome da tripulação da cabine, é um prazer
+compartilhar este voo com vocês.
+Saudamos especialmente nossos clientes LATAM Pass Elite e Delta Medallion
+que voam conosco hoje.
+Pedimos que mantenham o cinto de segurança afivelado, mesmo quando o
+indicador luminoso estiver apagado.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IEA-iT-Ysv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JjV-yq-2Tf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ns-fw-7kK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="-1068"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lzt-E6-Ug4">
+            <objects>
+                <viewController id="Qj3-dp-saw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GFh-12-fbW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BuK-dE-9ZI">
+                                <rect key="frame" x="0.0" y="81" width="377" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Dear passengers, on behalf of our cabin crew, we're delighted to have you with us on this flight.
+We especially welcome our LATAM Pass Elite and Delta Medallion customers flying with us today.
+For your safety, please keep your seatbelts fastened even when the seatbelt sign is off</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o41-sC-fo3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fJ5-1r-YLW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HgX-VB-HW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="-1068"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="h4I-px-t1L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WAD-DW-Heg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kgi-GI-kUW">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" systemColor="linkColor"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jIg-jg-AcY" kind="relationship" relationship="rootViewController" id="k9B-aS-cca"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzp-wM-gmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1045.0381679389313" y="52.816901408450704"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="19452914_1595693790464403_6956493507145466192_o" width="1000" height="1000"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
